@@ -207,9 +207,6 @@ C:\Users\irhayeelvis\Paramedy\bin\MCD\Debug\net10.0\wwwroot\_framework\dotnet.ru
 C:\Users\irhayeelvis\Paramedy\bin\MCD\Debug\net10.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat
 C:\Users\irhayeelvis\Paramedy\bin\MCD\Debug\net10.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat
 C:\Users\irhayeelvis\Paramedy\bin\MCD\Debug\net10.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat
-C:\Users\irhayeelvis\Paramedy\bin\MCD\Debug\net10.0\wwwroot\_framework\Paramedy.4rqage3l3x.wasm
-C:\Users\irhayeelvis\Paramedy\bin\MCD\Debug\net10.0\wwwroot\_framework\Paramedy.t52w0azilr.pdb
-C:\Users\irhayeelvis\Paramedy\bin\MCD\Debug\net10.0\wwwroot\_framework\dotnet.phh1tlftrl.js
 C:\Users\irhayeelvis\Paramedy\bin\MCD\Debug\net10.0\wwwroot\_framework\blazor.webassembly.66stpp682q.js.gz
 C:\Users\irhayeelvis\Paramedy\bin\MCD\Debug\net10.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.3ur142rhlk.wasm.gz
 C:\Users\irhayeelvis\Paramedy\bin\MCD\Debug\net10.0\wwwroot\_framework\Microsoft.AspNetCore.Components.ld1j2d23tn.wasm.gz
@@ -418,9 +415,6 @@ C:\Users\irhayeelvis\Paramedy\bin\MCD\Debug\net10.0\wwwroot\_framework\dotnet.ru
 C:\Users\irhayeelvis\Paramedy\bin\MCD\Debug\net10.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat.gz
 C:\Users\irhayeelvis\Paramedy\bin\MCD\Debug\net10.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat.gz
 C:\Users\irhayeelvis\Paramedy\bin\MCD\Debug\net10.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat.gz
-C:\Users\irhayeelvis\Paramedy\bin\MCD\Debug\net10.0\wwwroot\_framework\Paramedy.4rqage3l3x.wasm.gz
-C:\Users\irhayeelvis\Paramedy\bin\MCD\Debug\net10.0\wwwroot\_framework\Paramedy.t52w0azilr.pdb.gz
-C:\Users\irhayeelvis\Paramedy\bin\MCD\Debug\net10.0\wwwroot\_framework\dotnet.phh1tlftrl.js.gz
 C:\Users\irhayeelvis\Paramedy\bin\MCD\Debug\net10.0\Paramedy.staticwebassets.runtime.json
 C:\Users\irhayeelvis\Paramedy\bin\MCD\Debug\net10.0\Paramedy.staticwebassets.endpoints.json
 C:\Users\irhayeelvis\Paramedy\bin\MCD\Debug\net10.0\Paramedy.dll
@@ -1111,10 +1105,6 @@ C:\Users\irhayeelvis\Paramedy\obj\MCD\Debug\net10.0\compressed\5gg9qush2p-{0}-5k
 C:\Users\irhayeelvis\Paramedy\obj\MCD\Debug\net10.0\compressed\26h6qyryqg-{0}-tjcz0u77k5-tjcz0u77k5.gz
 C:\Users\irhayeelvis\Paramedy\obj\MCD\Debug\net10.0\compressed\ey0lymolyk-{0}-tptq2av103-tptq2av103.gz
 C:\Users\irhayeelvis\Paramedy\obj\MCD\Debug\net10.0\compressed\crvvghd2ao-{0}-lfu7j35m59-lfu7j35m59.gz
-C:\Users\irhayeelvis\Paramedy\obj\MCD\Debug\net10.0\compressed\agz2wfmdpn-{0}-4rqage3l3x-4rqage3l3x.gz
-C:\Users\irhayeelvis\Paramedy\obj\MCD\Debug\net10.0\compressed\lht3go06fp-{0}-t52w0azilr-t52w0azilr.gz
-C:\Users\irhayeelvis\Paramedy\obj\MCD\Debug\net10.0\compressed\0x6673gmgd-{0}-phh1tlftrl-phh1tlftrl.gz
-C:\Users\irhayeelvis\Paramedy\obj\MCD\Debug\net10.0\compressed\8huludwalt-{0}-6aq3euz6jr-6aq3euz6jr.gz
 C:\Users\irhayeelvis\Paramedy\obj\MCD\Debug\net10.0\staticwebassets.build.json
 C:\Users\irhayeelvis\Paramedy\obj\MCD\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\irhayeelvis\Paramedy\obj\MCD\Debug\net10.0\staticwebassets.development.json
@@ -1125,3 +1115,13 @@ C:\Users\irhayeelvis\Paramedy\obj\MCD\Debug\net10.0\Paramedy.dll
 C:\Users\irhayeelvis\Paramedy\obj\MCD\Debug\net10.0\refint\Paramedy.dll
 C:\Users\irhayeelvis\Paramedy\obj\MCD\Debug\net10.0\Paramedy.pdb
 C:\Users\irhayeelvis\Paramedy\obj\MCD\Debug\net10.0\ref\Paramedy.dll
+C:\Users\irhayeelvis\Paramedy\bin\MCD\Debug\net10.0\wwwroot\_framework\Paramedy.wcwuq3y0at.wasm
+C:\Users\irhayeelvis\Paramedy\bin\MCD\Debug\net10.0\wwwroot\_framework\Paramedy.4t6ygw8bb5.pdb
+C:\Users\irhayeelvis\Paramedy\bin\MCD\Debug\net10.0\wwwroot\_framework\dotnet.cz0pvq7946.js
+C:\Users\irhayeelvis\Paramedy\bin\MCD\Debug\net10.0\wwwroot\_framework\Paramedy.wcwuq3y0at.wasm.gz
+C:\Users\irhayeelvis\Paramedy\bin\MCD\Debug\net10.0\wwwroot\_framework\Paramedy.4t6ygw8bb5.pdb.gz
+C:\Users\irhayeelvis\Paramedy\bin\MCD\Debug\net10.0\wwwroot\_framework\dotnet.cz0pvq7946.js.gz
+C:\Users\irhayeelvis\Paramedy\obj\MCD\Debug\net10.0\compressed\agz2wfmdpn-{0}-wcwuq3y0at-wcwuq3y0at.gz
+C:\Users\irhayeelvis\Paramedy\obj\MCD\Debug\net10.0\compressed\lht3go06fp-{0}-4t6ygw8bb5-4t6ygw8bb5.gz
+C:\Users\irhayeelvis\Paramedy\obj\MCD\Debug\net10.0\compressed\0x6673gmgd-{0}-cz0pvq7946-cz0pvq7946.gz
+C:\Users\irhayeelvis\Paramedy\obj\MCD\Debug\net10.0\compressed\8huludwalt-{0}-9ignodg7m5-9ignodg7m5.gz
