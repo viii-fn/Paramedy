@@ -1,0 +1,31 @@
+.page[b-0he9ldte8n] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-0he9ldte8n] {
+    flex: 1;
+}
+
+.sidebar[b-0he9ldte8n] {
+    background: linear-gradient(#6e0134, #ff107f);
+}
+
+@media (min-width: 641px) {
+    .page[b-0he9ldte8n] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-0he9ldte8n] {
+        width: 200px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+    
+    article[b-0he9ldte8n] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
