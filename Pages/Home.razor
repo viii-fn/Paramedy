@@ -17,6 +17,32 @@
     </div>
 </div>
 
+@if (_card == null)
+{
+    <p>Loading Cards...</p>
+}
+else
+{
+    <div class="grid">
+        @foreach (var trail in _trails)
+        {
+            <Card Card="card" />
+        }
+    </div>
+}
+
 @code {
-    private IEnumerable<Card> _cards;
+    private IEnumerable<Card>? _card;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            _card = await Http.GetFromJsonAsync <IEnumerable<Card>>("card/card-data.json");
+        }
+        catch (HttpRquestException ex)
+        {
+            Console.WriteLine($"There was a problem loading the card data: {ex.Message}");
+        }
+    }
 }

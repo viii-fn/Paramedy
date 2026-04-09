@@ -49,3 +49,11 @@ button.secondary:hover {
     color: var(--brand);
     box-shadow: var(--i-shade-b);
 }
+
+.card {
+    backdrop-filter: blur(15px);
+    border-radius: var(--bdr-c);
+}
+    .card-title {
+        color: var(--brand);
+    }
