@@ -1,17 +1,22 @@
 ﻿@page "/"
+@inject HttpClient Http
 
 <PageTitle>Home</PageTitle>
 
 <div class="hero">
     <div class="name">
-        <h1 class="capital">The Virtual Paramedic <br> <em>Engineered to save lives</em></h1>
+        <h1 class="capital">Personalized healthcare, <br> Powered by <em>you</em></h1>
         
         <h3>Welcome To <strong>Paramedy</strong></h3>
 
         <div class="btn-area">
             <button class="secondary">
                 Get Started
-            </button>
+            </button> 
         </div>
     </div>
 </div>
+
+@code {
+    private IEnumerable<Card> _cards;
+}

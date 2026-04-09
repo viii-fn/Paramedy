@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Paramedy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9527e521396c6ece4c0346879bbcb3730019263b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f52f83a8ecb4b3f2d00464a4363e6f1e6c75a33b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Paramedy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Paramedy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

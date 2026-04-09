@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "Paramedy",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-vt7cjS//xOYoOsVVO+SvKF5X5r8xj4XCW0XhvdHnTrg=",
+    "hash": "sha256-a3miRA1WKeNZMPB5swSbhAgTyA7fjsWbYHjE1AyyiVA=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.69poregybn.js"
@@ -1242,16 +1242,16 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "Paramedy.wasm",
-        "name": "Paramedy.cfkipiom1a.wasm",
-        "integrity": "sha256-6HgJAqu3Z9V3E8uU2bxoS43BrZ8Vn+9GMJ1ZwxyVWb0=",
+        "name": "Paramedy.38rs7iwipl.wasm",
+        "integrity": "sha256-LRhpP8C2Q+/CqbgZp286CmlMdbk4Qd/qzdcVorD0kgI=",
         "cache": "force-cache"
       }
     ],
     "pdb": [
       {
         "virtualPath": "Paramedy.pdb",
-        "name": "Paramedy.lcca2mnhj4.pdb",
-        "integrity": "sha256-BWc0DPj6M7F9GV+WuAg6yANysc3pGUWOuEH4ex7A0ok=",
+        "name": "Paramedy.kr6xbhgs3g.pdb",
+        "integrity": "sha256-gG/JL8VVNiQrGU9bysP8cTqQTNX8QJStcgTDEWpKONA=",
         "cache": "force-cache"
       }
     ],

@@ -21,10 +21,6 @@ main[b-0he9ldte8n] {
         flex-direction: row;
     }
 
-    main[b-0he9ldte8n] {
-        width: 80%;
-    }
-
     .sidebar[b-0he9ldte8n] {
         width: 20%;
         height: 100vh;
@@ -33,7 +29,6 @@ main[b-0he9ldte8n] {
     }
     
     article[b-0he9ldte8n] {
-        padding-left: 2rem !important;
-        padding-right: 1.5rem !important;
+        padding: 0;
     }
 }
