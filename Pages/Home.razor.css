@@ -1,7 +1,50 @@
-.page-body {
-    background: url(/wwwroot/assets/bg-l.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+h1 {
+    margin: 3rem auto;
+    padding: 3rem 0;
+    border-bottom: var(--border-line);
+    border-radius: 20%;
+    width: fit-content;
+    background: linear-gradient(90deg, transparent, var(--brand), var(--brand), var(--brand), transparent);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.hero {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-Y: auto;
+    text-align: center;
+    display: flex;
+}
+
+.name {
+    margin: auto;
+}
+
+.capital {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.btn-area {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: .5rem 1.5rem;
+}
+
+button.secondary {
+    color: var(--brand-t);
+    box-shadow: var(--i-shade);
+}
+
+button.secondary:hover {
+    color: var(--brand);
+    box-shadow: var(--i-shade-b);
 }

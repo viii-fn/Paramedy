@@ -6,10 +6,14 @@
 
 main[b-0he9ldte8n] {
     flex: 1;
+    background: linear-gradient(-45deg, transparent, #270031);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 .sidebar[b-0he9ldte8n] {
-    background: linear-gradient(#6e0134, #ff107f);
+    background: linear-gradient(#41001e, #270031);
 }
 
 @media (min-width: 641px) {
@@ -17,8 +21,12 @@ main[b-0he9ldte8n] {
         flex-direction: row;
     }
 
+    main[b-0he9ldte8n] {
+        width: 80%;
+    }
+
     .sidebar[b-0he9ldte8n] {
-        width: 200px;
+        width: 20%;
         height: 100vh;
         position: sticky;
         top: 0;

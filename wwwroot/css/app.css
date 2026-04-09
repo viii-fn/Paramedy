@@ -1,23 +1,70 @@
+:root {
+    --brand: #ff107f;
+    --brand-t: #ff107f9f;
+    --bg: #000000;
+    --text: #ffffff9f;
+    --primary: #fff;
+    --card: #000;
+    --border-line: 2px solid #ff107f;
+    --bdr-p: 1.3rem;
+    --bdr-c: .8rem;
+    --d-shade: 0 0 7px #000;
+    --i-shade: inset 0 0 10px #ff107f;
+    --i-shade-b: inset 0 0 20px #ff107f;
+    --shade: 0 0 10px #000000af;
+    --trans: all .2s ease-in;
+}
+
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    scrollbar-width: thin;
+    scrollbar-color: var(--brand) transparent;
+    background: var(--bg);
+    color: var(--text);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+em {
+    color: var(-primary);
+}
+
+strong {
+    color: var(--brand);
 }
 
 h1:focus {
     outline: none;
 }
 
+button {
+    border-radius: var(--bdr-p);
+    transition: var(--trans);
+    appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    box-shadow: none;
+    border: none;
+    background: none;
+    font-size: 1rem;
+}
+
 a, .btn-link {
-    color: #0071c1;
+    color: var(--brand);
 }
 
 .btn-primary {
     color: #fff;
-    background-color: #1b6ec2;
-    border-color: #1861ac;
+    background-color: #ff107f;
+    border-color: #ff107f;
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #ff107f;
 }
 
 .content {
@@ -85,7 +132,7 @@ a, .btn-link {
     }
 
         .loading-progress circle:last-child {
-            stroke: #1b6ec2;
+            stroke: var(--brand);
             stroke-dasharray: calc(3.141 * var(--blazor-load-percentage, 0%) * 0.8), 500%;
             transition: stroke-dasharray 0.05s ease-in-out;
         }
@@ -102,7 +149,7 @@ a, .btn-link {
     }
 
 code {
-    color: #c02d76;
+    color: var(--brand);
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
