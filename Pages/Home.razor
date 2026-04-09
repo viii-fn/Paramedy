@@ -17,28 +17,28 @@
     </div>
 </div>
 
-@if (_card == null)
+@if (_infos == null)
 {
-    <p>Loading Cards...</p>
+    <p>--Engineered to save lives--</p>
 }
 else
 {
     <div class="grid">
-        @foreach (var trail in _trails)
+        @foreach (var info in _infos)
         {
-            <Card Card="card" />
+            <InfoCard Info="info" />
         }
     </div>
 }
 
 @code {
-    private IEnumerable<Card>? _card;
+    private IEnumerable<Info>? _infos;
 
     protected override async Task OnInitializedAsync()
     {
         try
         {
-            _card = await Http.GetFromJsonAsync <IEnumerable<Card>>("card/card-data.json");
+            _infos = await Http.GetFromJsonAsync <IEnumerable<Info>>("infos/info-data.json");
         }
         catch (HttpRquestException ex)
         {
