@@ -6,43 +6,46 @@
 <div class="hero">
     <div class="name">
         <h1 class="capital">Personalized healthcare, <br> Powered by <em>you</em></h1>
-        
-        <h3>Welcome To <strong>Paramedy</strong></h3>
+        <p class="capital" style="max-width: 1000px;">Introducing <strong>Paramedy</strong> - the virtual paramedic app that's set to revolutionize first response in emergencies!. designed to bridge the gap until help arrives, especially in accidents or remote situations. <strong>Personalized health care, powered by <em>you</em></strong></p>
 
         <div class="btn-area">
-            <button class="secondary">
-                Get Started
-            </button> 
+            <button class="secondary">Book an appointment</button> <button class="secondary">Emergency Hotline</button>
         </div>
     </div>
 </div>
 
-@if (_infos == null)
+@if (infoCard == null)
 {
-    <p>--Engineered to save lives--</p>
+    <p><em>--Engineered to save lives--</em></p>
 }
 else
 {
-    <div class="grid">
-        @foreach (var info in _infos)
+    <div class="flex">
+        @foreach (var card in infoCard )
         {
-            <InfoCard Info="info" />
+            <div class="card px-4 py-4">
+                <div class="card-title">
+                    <h4>@card.Title</h4>
+                </div>
+                <div class="card-info">
+                    <p>@card.Info</p>
+                </div>
+            </div>
         }
     </div>
 }
 
 @code {
-    private IEnumerable<Info>? _infos;
+    private GridCardInfo[]? infoCard;
 
     protected override async Task OnInitializedAsync()
     {
-        try
-        {
-            _infos = await Http.GetFromJsonAsync <IEnumerable<Info>>("infos/info-data.json");
-        }
-        catch (HttpRquestException ex)
-        {
-            Console.WriteLine($"There was a problem loading the card data: {ex.Message}");
-        }
+        infoCard = await Http.GetFromJsonAsync<GridCardInfo[]>("cards/info-card.json");
+    }
+
+    public class GridCardInfo
+    {
+        public string? Title { get; set; }
+        public string? Info { get; set; }
     }
 }
