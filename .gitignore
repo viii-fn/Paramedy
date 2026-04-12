@@ -480,11 +480,3 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
-
-# Blazor WebAssembly Specific
-wwrwroot/_framework/
-PublishOutput/
-artifacts/
-
-# .Net 10 WASM / AOT Outputs
-*.wasm
