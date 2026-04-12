@@ -1,5 +1,4 @@
 ﻿@page "/"
-@inject HttpClient Http
 
 <PageTitle>Home</PageTitle>
 
@@ -14,38 +13,4 @@
     </div>
 </div>
 
-@if (infoCard == null)
-{
-    <p><em>--Engineered to save lives--</em></p>
-}
-else
-{
-    <div class="flex">
-        @foreach (var card in infoCard )
-        {
-            <div class="card px-4 py-4">
-                <div class="card-title">
-                    <h4>@card.Title</h4>
-                </div>
-                <div class="card-info">
-                    <p>@card.Info</p>
-                </div>
-            </div>
-        }
-    </div>
-}
-
-@code {
-    private GridCardInfo[]? infoCard;
-
-    protected override async Task OnInitializedAsync()
-    {
-        infoCard = await Http.GetFromJsonAsync<GridCardInfo[]>("cards/info-card.json");
-    }
-
-    public class GridCardInfo
-    {
-        public string? Title { get; set; }
-        public string? Info { get; set; }
-    }
-}
+<InfoCard />

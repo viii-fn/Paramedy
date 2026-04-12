@@ -1,0 +1,29 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    backdrop-filter: blur(15px);
+    border-radius: var(--bdr-p);
+    width: 90vw;
+    margin: 2rem auto;
+    background: linear-gradient(#ffffff1f, #ffffff1f, transparent);
+    box-shadow: 0 0 10px #ffffff1f;
+}
+    .card-title {
+        color: var(--brand-t);
+    }
+    .card-info {
+        color: var(--text);
+    }
+
+@media (min-width: 641px) {
+    .card-container {
+        flex-direction: row;
+    }
+
+    .card {
+        width: 30%;
+    }
+}

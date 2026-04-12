@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\irhayeelvis\\paramedy\\Paramedy.csproj": {}
+    "C:\\Users\\irhayeelvis\\Paramedy\\Paramedy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\irhayeelvis\\paramedy\\Paramedy.csproj": {
+    "C:\\Users\\irhayeelvis\\Paramedy\\Paramedy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\irhayeelvis\\paramedy\\Paramedy.csproj",
+        "projectUniqueName": "C:\\Users\\irhayeelvis\\Paramedy\\Paramedy.csproj",
         "projectName": "Paramedy",
-        "projectPath": "C:\\Users\\irhayeelvis\\paramedy\\Paramedy.csproj",
+        "projectPath": "C:\\Users\\irhayeelvis\\Paramedy\\Paramedy.csproj",
         "packagesPath": "C:\\Users\\irhayeelvis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\irhayeelvis\\paramedy\\obj\\",
+        "outputPath": "C:\\Users\\irhayeelvis\\Paramedy\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\irhayeelvis\\AppData\\Roaming\\NuGet\\NuGet.Config"
